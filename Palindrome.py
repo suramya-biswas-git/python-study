@@ -1,7 +1,9 @@
-str=input("Enter a word:")
-stg=str[:0:-1]
-stg=stg+str[0];
-if str==stg :
+stk=input("Enter a word:")
+stg=stk[:0:-1]
+stg=stg+stk[0];
+stk=stk.lower()
+stg=stg.lower()
+if stk==stg :
     print("Palindrome")
 else:
     print("Sorry")
